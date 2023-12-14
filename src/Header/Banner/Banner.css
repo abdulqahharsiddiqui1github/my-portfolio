@@ -1,0 +1,6 @@
+
+.iconsHover:hover{
+    box-shadow: 0 0 30px aquamarine,
+    0 0 25px aquamarine, 0 0 50px aquamarine,
+    0 0 100px aquamarine, 0 0 200px aquamarine
+}

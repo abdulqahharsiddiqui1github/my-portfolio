@@ -39,7 +39,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="flex py-4 items-center justify-between">
+    <div className="flex py-4 px-20 items-center justify-between">
       <div className="flex ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -65,7 +65,7 @@ const Navbar = () => {
             {navLink}
           </ul>
         </div>
-        <a className=" text-xl">PortFolio</a>
+        <a className="text-3xl font-bold">Siddiqui <span className="text-cyan-700"> A. Qahhar</span></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLink}</ul>

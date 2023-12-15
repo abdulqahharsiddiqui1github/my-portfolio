@@ -5,16 +5,16 @@ import './Banner.css'
 
 const Banner = () => {
   return (
-    <div className=" h-screen  flex items-center  ">
-      <div className="w-3/6 space-y-2">
-        <h3 className="text-5xl font-extrabold">hy, It's me</h3>
-        <h2 className="text-4xl font-bold ">Siddiqui Abdul Qahhar</h2>
+    <div className=" mx-20 items-center my-20 flex-row-reverse lg:flex justify-between">
+      <div className="flex justify-center">
+        <img className="w-[400px]" src={BannerImage} alt="" />
+      </div>
+      <div className="space-y-5">
+        <h3 className="text-5xl font-extrabold border-l-8 h-16 flex items-center pl-3 border-cyan-600">hy, It's me</h3>
+        <h2 className="text-6xl font-bold text-white">SIddiqui Abdul QAhhar</h2>
         <h3></h3>
-        <h3 className="text-5xl  font-extrabold">And I'm a <small className="text-cyan-600">Front end developer</small></h3>
-        <p className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-          inventore doloremque atque tempore suscipit aperiam esse 
-        </p>
+        <h3 className="text-2xl font-bold">And I'm a <small className="text-cyan-600 text-3xl">Front end developer  !!</small></h3>
+
         <div className="flex py-2 gap-3">
            <Link
            to="https://github.com/"
@@ -30,9 +30,7 @@ const Banner = () => {
         </div>
            <button className="font-semibold iconsHover btn-sm rounded-full bg-cyan-400 text-black">More About Me</button>
       </div>
-      <div className="w-3/6 flex justify-center">
-        <img className="w-3/5" src={BannerImage} alt="" />
-      </div>
+      
     </div>
   );
 };

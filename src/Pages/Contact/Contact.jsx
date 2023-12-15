@@ -7,11 +7,11 @@ const Contact = () => {
     <h2 className=" text-center  text-cyan-400 text-4xl font-bold underline  ">
     Contact Me
   </h2>
-    <div className="lg:flex gap-10 justify-between my-28 mx-24"> 
-      <div className="flex-1 px-10">
-        <h2 className="text-xl">Massage me</h2>
-        <div className="flex flex-col space-y-4">
-          <div className="flex gap-8">
+    <div className="lg:flex gap-10 justify-between my-28 lg:mx-24 mx-8"> 
+      <div className="flex-1">
+        <h2 className="border-l-4 h-8 flex items-center pl-2 text-xl border-cyan-600 text-white">Massage me</h2>
+        <div className="lg:flex flex-col space-y-4">
+          <div className="lg:flex gap-8">
             <input
               className="border-b w-full pb-2 pl-2 outline-none bg-inherit"
               type="text"
@@ -27,23 +27,23 @@ const Contact = () => {
             />
           </div>
           <input
-            className="border-b pb-2 pl-2 outline-none bg-inherit"
+            className="border-b w-full pb-2 pl-2 outline-none bg-inherit"
             type="text"
             name="subject"
             placeholder="Subject"
           />
           <textarea
-            className="border-b pb-2 pl-2  outline-none bg-inherit resize-none"
+            className="border-b w-full pb-2 pl-2  outline-none bg-inherit resize-none"
             name=""
             id=""
-            cols="15"
+            cols="25"
             rows="8"
             placeholder="message"
           ></textarea>
         </div>
         <button className="font-semibold text-xl text-cyan-950 iconsHover mt-16 w-3/5 btn-md rounded-full bg-cyan-400 text-black">Submit</button>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 lg:mt-0 mt-16">
         <h2 className="border-l-4 h-8 flex items-center pl-2 text-xl border-cyan-600 text-white">
           Contact Information
         </h2>
@@ -67,7 +67,7 @@ const Contact = () => {
             </div>
             <div  >
             <h2 className="text-2xl text-white">Email</h2>
-            <span  className="text-xl text-cyan-600">abudlqahharsiddiqui@gamil.com</span>
+            <span  className="text-xl text-cyan-600 hover:text-cyan-800">abudlqahharsiddiqui@gamil.com</span>
             </div>
           </div>
         </div>

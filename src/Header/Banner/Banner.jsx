@@ -5,8 +5,8 @@ import './Banner.css'
 
 const Banner = () => {
   return (
-    <div className=" mx-20 items-center my-20 flex-row-reverse lg:flex justify-between">
-      <div className="flex justify-center">
+    <div className=" lg:mx-20 mx-8 items-center my-20 flex-row-reverse lg:flex justify-between">
+      <div className="flex lg:mb-0 mb-16 justify-center">
         <img className="w-[400px]" src={BannerImage} alt="" />
       </div>
       <div className="space-y-5">

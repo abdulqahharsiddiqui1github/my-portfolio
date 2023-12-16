@@ -10,7 +10,7 @@ const Banner = () => {
       </div>
       <div className="space-y-5">
         <h3 className="text-5xl font-extrabold border-l-8 lg:h-16 flex items-center pl-3 border-cyan-600">hy, It's me</h3>
-        <h2 className="text-6xl font-bold text-white">SIddiqui Abdul QAhhar</h2>
+        <h2 className="text-6xl font-bold ">SIddiqui Abdul QAhhar</h2>
         <h3></h3>
         <h3 className="text-2xl font-bold">And I'm a <small className="text-cyan-600 text-3xl">Front end developer  !!</small></h3>
 

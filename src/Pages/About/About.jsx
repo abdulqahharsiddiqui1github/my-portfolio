@@ -8,7 +8,7 @@ const About = () => {
       </h2>
       <div className="md:flex items-center ">
         <div className="flex-1 flex justify-center">
-          <img className="w-[400px]" src={BannerImage} alt="" />
+          <img className="w-[400px] rounded-full" src="https://i.ibb.co/VV1hLZZ/banner-Image.jpg" alt="" />
         </div>
         <div className="flex-1 md:mt-0 mt-16">
           <h3 className="text-4xl font-extrabold mb-10

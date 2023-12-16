@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import BannerImage from "../../assets/member1.png";
 import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
 import './Banner.css'
 
@@ -7,7 +6,7 @@ const Banner = () => {
   return (
     <div className=" lg:mx-20 mx-8 items-center my-20 flex-row-reverse lg:flex justify-between">
       <div className="flex lg:mb-0 mb-16 justify-center">
-        <img className="w-[400px]" src={BannerImage} alt="" />
+        <img className="w-[400px] rounded-full" src="https://i.ibb.co/VV1hLZZ/banner-Image.jpg" alt="" />
       </div>
       <div className="space-y-5">
         <h3 className="text-5xl font-extrabold border-l-8 h-16 flex items-center pl-3 border-cyan-600">hy, It's me</h3>

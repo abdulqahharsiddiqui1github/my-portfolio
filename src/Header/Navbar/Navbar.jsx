@@ -9,7 +9,7 @@ const Navbar = () => {
           isPending ? "pending" : isActive ? "text-red-600 underline" : ""
         }
       >
-        <span className="text-xl "> Home</span>
+        <span className="text-base font-semibold uppercase"> Home</span>
       </NavLink>
       <NavLink
         to="/about"
@@ -17,7 +17,15 @@ const Navbar = () => {
           isPending ? "pending" : isActive ? "text-red-600 underline" : ""
         }
       >
-        <span className="text-xl "> About</span>
+        <span className="text-base font-semibold uppercase"> About</span>
+      </NavLink>
+            <NavLink
+        to="/projects"
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+        }
+      >
+        <span className="text-base font-semibold uppercase">projects</span>
       </NavLink>
       <NavLink
         to="/skills"
@@ -25,7 +33,7 @@ const Navbar = () => {
           isPending ? "pending" : isActive ? "text-red-500 underline" : ""
         }
       >
-        <span className="text-xl "> Skills</span>
+        <span className="text-base font-semibold uppercase"> Skills</span>
       </NavLink>
       <NavLink
         to="/contact"
@@ -33,7 +41,7 @@ const Navbar = () => {
           isPending ? "pending" : isActive ? "text-red-500 underline" : ""
         }
       >
-        <span className="text-xl ">Contact</span>
+        <span className="text-base font-semibold uppercase">Contact</span>
       </NavLink>
     </div>
   );

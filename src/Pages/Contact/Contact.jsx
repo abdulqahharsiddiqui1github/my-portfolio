@@ -9,7 +9,7 @@ const Contact = () => {
   </h2>
     <div className="lg:flex gap-10 justify-between my-28 lg:mx-24 mx-8"> 
       <div className="flex-1">
-        <h2 className="border-l-4 h-8 flex items-center pl-2 text-xl border-cyan-600 text-white">Massage me</h2>
+        <h2 className="border-l-4 h-8 flex items-center pl-2 text-xl border-cyan-600">Massage me</h2>
         <div className="lg:flex flex-col space-y-4">
           <div className="lg:flex gap-8">
             <input
@@ -44,7 +44,7 @@ const Contact = () => {
         <button className="font-semibold text-xl text-cyan-950 iconsHover mt-16 w-3/5 btn-md rounded-full bg-cyan-400 text-black">Submit</button>
       </div>
       <div className="flex-1 lg:mt-0 mt-16">
-        <h2 className="border-l-4 h-8 flex items-center pl-2 text-xl border-cyan-600 text-white">
+        <h2 className="border-l-4 h-8 flex items-center pl-2 text-xl border-cyan-600 ">
           Contact Information
         </h2>
         <p className="text-xl mt-4">
@@ -65,9 +65,9 @@ const Contact = () => {
             <h2 className="text-2xl text-white">Location</h2>
             <span  className="text-xl text-cyan-600">Hajigonj, Chandpur</span>
             </div>
-            <div  >
+            <div className="" >
             <h2 className="text-2xl text-white">Email</h2>
-            <span  className="text-xl text-cyan-600 hover:text-cyan-800">abudlqahharsiddiqui@gamil.com</span>
+            <span  className="lg:text-xl  text-cyan-600 hover:text-cyan-800">abudlqahharsiddiqui@gamil.com</span>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navLink = (
-    <div className="flex gap-8">
+    <div className="flex lg:flex-row flex-col gap-8">
       <NavLink
         to="/"
         className={({ isActive, isPending }) =>
@@ -47,8 +47,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="flex py-4 px-20 items-center justify-between">
-      <div className="flex ">
+    <div className="flex py-4 lg:px-20 items-center justify-between">
+      <div className="flex">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -68,12 +68,14 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-8 shadow bg-base-200  w-96 rounded-box "
           >
             {navLink}
           </ul>
         </div>
+        <div>
         <a className="text-3xl font-bold">Siddiqui <span className="text-cyan-700"> A. Qahhar</span></a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLink}</ul>

@@ -11,7 +11,7 @@ const Skills = () => {
         <h2 className=" text-center  text-cyan-400 text-4xl font-bold underline  ">
           My Skills
         </h2>
-        <div className="flex flex-col mt-8 justify-center items-center">
+        <div className="flex flex-col mt-16 justify-center items-center">
           <Marquee>
             <ul className="flex items-center gap-16">
               <li className="ml-16">
@@ -77,7 +77,7 @@ const Skills = () => {
         <h3 className="text-3xl text-cyan-400 text-center font-bold  pb-8">Technical Skills Overview</h3>
       <div  className="flex my-4 mb-8 gap-8 lg:px-32 flex-wrap justify-center"> 
         <div
-        className="flex mb-16 flex-col" 
+        className="flex lg:mb-16 flex-col" 
         style={{ width: 200, height: 200 }}>
           <CircularProgressbarWithChildren value={90}>
             {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}

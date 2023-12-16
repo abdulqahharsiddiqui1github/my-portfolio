@@ -59,11 +59,11 @@ const Contact = () => {
           <div className="ml-4 flex flex-col  py-4 gap-y-6">
             <div >
             <h2 className="text-2xl ">Name</h2>
-            <span className="text-xl text-cyan-600">Siddiqui Abdul Qahhar</span>
+            <span className="lg:text-xl text-cyan-600">Siddiqui Abdul Qahhar</span>
             </div>
             <div >
             <h2 className="text-2xl ">Location</h2>
-            <span  className="text-xl text-cyan-600">Hajigonj, Chandpur</span>
+            <span  className="lg:text-xl text-cyan-600">Hajigonj, Chandpur</span>
             </div>
             <div className="" >
             <h2 className="text-2xl ">Email</h2>

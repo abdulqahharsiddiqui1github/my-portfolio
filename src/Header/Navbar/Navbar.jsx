@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   const navLink = (
     <div className="flex lg:flex-row flex-col gap-8">
@@ -45,8 +47,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="flex py-4 lg:px-20 items-center ">
-      <div className="flex">
+    <div className="flex py-4 lg:px-20 justify-between items-center ">
+      <div className="flex items-center ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg

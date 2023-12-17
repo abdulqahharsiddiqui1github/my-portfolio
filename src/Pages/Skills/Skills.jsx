@@ -4,14 +4,14 @@ import "react-circular-progressbar/dist/styles.css";
 const Skills = () => {
   return (
     <>
-      <section className="my-28">
+      <section className="lg:my-28 my-24">
         <p className="text-sm my-3 text-center text-cyan-700">
           Allow me to display my expertise.
         </p>
         <h2 className=" text-center  text-cyan-400 text-4xl font-bold underline  ">
           My Skills
         </h2>
-        <div className="flex flex-col mt-16 justify-center items-center">
+        <div className="flex flex-col my-36 justify-center items-center">
           <Marquee>
             <ul className="flex items-center gap-16">
               <li className="ml-16">
